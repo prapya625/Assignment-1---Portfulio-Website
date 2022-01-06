@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap");
+
+body {
+  font-family: "Luxurious Roman", cursive;
+}
+
+.container {
+  max-width: 95%;
+  width: 1140px;
+  margin: auto;
+}
+
+h1.hero-heading {
+  font-size: 59px;
+}
+
+h1.hero-heading:nth-child(2) {
+  margin-top: -47px;
+  color: #ffab56;
+}
