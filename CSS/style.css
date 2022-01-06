@@ -47,7 +47,7 @@ a.hero-btn {
 }
 
 .hero-content__section {
-  margin-top: 104px;
+  margin-top: 132px;
 }
 
 .hero-headings {
@@ -68,7 +68,7 @@ p.hero-con {
   max-width: 78%;
   display: block;
   margin-left: auto;
-  margin-top: -47px;
+  margin-top: -8px;
 }
 
 .section_heading {
@@ -122,6 +122,48 @@ h3.mission-heading {
 p.mission-con {
   color: #302f2f;
   font-size: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 27px;
   word-break: break-all;
+}
+section.dream {
+  margin-top: 59px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.desc_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image img {
+  width: 85%;
+  height: 100%;
+}
+
+.desc_row {
+  display: flex;
+  justify-content: space-between;
+}
+section.description {
+  margin-top: 137px;
+  background-image: url("../Images/shape-1.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position-y: center;
+}
+.desc_con {
+  padding-top: 45px;
+}
+.desc_con h1 {
+  font-size: 33px;
+}
+.desc_con h1 {
+  font-size: 33px;
+}
+
+.desc_con h1:nth-child(2) {
+  padding-bottom: 17px;
 }
