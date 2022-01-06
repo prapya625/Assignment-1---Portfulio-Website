@@ -4,6 +4,7 @@
 :root {
   --base-red-color: #ff5959;
   --base-yellow-color: #ffab56;
+  --base-blue-color: #090632;
   --cursive-font: "Luxurious Roman", cursive;
 }
 
@@ -17,6 +18,12 @@
   max-width: 95%;
   width: 1140px;
   margin: auto;
+}
+
+.short_container {
+  width: 1086px;
+  margin: auto;
+  max-width: 95%;
 }
 
 h1.hero-heading {
@@ -40,7 +47,7 @@ a.hero-btn {
 }
 
 .hero-content__section {
-  margin-top: 128px;
+  margin-top: 104px;
 }
 
 .hero-headings {
@@ -61,4 +68,60 @@ p.hero-con {
   max-width: 78%;
   display: block;
   margin-left: auto;
+  margin-top: -47px;
+}
+
+.section_heading {
+  color: var(--base-blue-color);
+  text-align: center;
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.section_heading .high {
+  color: var(--base-yellow-color);
+}
+
+img.mission-image {
+  width: 45%;
+  padding-left: 10px;
+}
+
+.mission_grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 24px;
+  margin-top: 52px;
+}
+
+.mission:nth-child(2) {
+  background: #ffeeee;
+}
+.mission {
+  border-radius: 15px;
+}
+.mission:nth-child(1) {
+  background: #edf5f6;
+}
+.mission:nth-child(3) {
+  background: #fff4d6;
+}
+
+.mission-content {
+  padding: 11px 27px;
+}
+
+.mission-content {
+  padding: 1px 37px;
+}
+h3.mission-heading {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+p.mission-con {
+  color: #302f2f;
+  font-size: 15px;
+  padding-bottom: 15px;
+  word-break: break-all;
 }
