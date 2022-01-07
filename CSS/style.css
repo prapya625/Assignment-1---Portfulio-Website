@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
 :root {
   --base-red-color: #ff5959;
   --base-yellow-color: #ffab56;
@@ -158,7 +158,9 @@ section.description div.first {
   background-image: url("../Images/shape-1.png");
   background-repeat: no-repeat;
   background-size: 20%;
-  background-position-y: center;
+  background-position-y: 4%;
+  padding-top: 64px;
+  background-position-x: 6%;
 }
 
 section.description div.second {
@@ -167,6 +169,9 @@ section.description div.second {
   background-size: 20%;
   background-position-x: right;
   background-position-y: bottom;
+  background-position-y: 79%;
+  background-position-x: 92%;
+  padding-bottom: 163px;
 }
 
 .desc_con {
@@ -222,4 +227,29 @@ section.corona {
 .corona__content p {
   padding-left: 0px;
   padding-bottom: 8px;
+}
+
+footer {
+  background: #0b0d17;
+  color: white;
+  padding: 57px 0;
+}
+
+h1.footer_heading {
+  text-align: center;
+  color: white;
+  padding-bottom: 11px;
+  font-family: var(--cursive-font);
+  font-size: 41px;
+}
+
+h1.footer_heading span {
+  color: #ff5959;
+  font-family: var(--cursive-font);
+}
+
+.footer_content {
+  text-align: center;
+  font-size: 15px;
+  color: gray;
 }
